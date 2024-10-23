@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: jokwuoma.study
+    - host: pdocommrig.com # Domain name
       http:
         paths:
           - path: /api
