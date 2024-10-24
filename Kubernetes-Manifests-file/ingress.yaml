@@ -7,7 +7,7 @@ metadata:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
-    alb.ingress.kubernetes.io/subnets: "subnet-07d78f21cee33aa71, subnet-0111cee370fe4ba65, subnet-03e9416c6c3d8d213" # change the subnet ids to your public subnets
+    # alb.ingress.kubernetes.io/subnets: "subnet-07d78f21cee33aa71, subnet-0111cee370fe4ba65, subnet-03e9416c6c3d8d213" # change the subnet ids to your public subnets
 spec:
   ingressClassName: alb
   rules:
